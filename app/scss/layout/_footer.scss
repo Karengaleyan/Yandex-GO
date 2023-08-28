@@ -1,0 +1,21 @@
+.footer {
+   padding: 0 0 100px 0;
+   font-weight: 400;
+   line-height: 120%;
+   color: $gray;
+   font-size: 10px;
+
+   a {
+      text-decoration: underline;
+      transition: color .2s ease-in;
+
+      &:hover {
+         color: #FFDE40;
+      }
+   }
+
+   @include media-breakpoint-up(sm) {
+      padding: 0 0 130px 0;
+      font-size: $fs-small;
+   }
+}

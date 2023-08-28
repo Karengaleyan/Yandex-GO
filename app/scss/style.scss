@@ -1,0 +1,27 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/variables";
+
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import 'base/fonts';
+@import "base/body";
+@import "base/typography";
+
+@import "base/utils";
+
+@import "components/button";
+@import "components/price";
+@import "components/advantages";
+@import "components/about";
+@import "components/benefits";
+@import "components/slider";
+
+@import "form/input";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/main";
+
+@import "pages/home";

@@ -1,0 +1,32 @@
+.price {
+   border-radius: 500px;
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%),
+      radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+   display: inline-flex;
+   align-items: center;
+   height: 23px;
+
+   &__new {
+      border-radius: 500px;
+      background: radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+      font-size: 18px;
+      padding: 0 12px;
+
+      @media screen and (min-width:576px) {
+         font-size: 24px;
+      }
+   }
+
+   &__old {
+      text-decoration: line-through;
+      color: #808080;
+      padding: 0 12px;
+      font-size: 13px;
+
+      @media screen and (min-width:576px) {
+         font-size: 16px;
+         height: 33px;
+
+      }
+   }
+}
